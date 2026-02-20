@@ -1,0 +1,24 @@
+# Big stuff you never commit
+data/
+out/
+work_dirs/
+runs/
+logs/
+pipeline_log*.txt
+
+# Frontend junk
+**/node_modules/
+**/dist/
+**/.vite/
+**/.cache/
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db

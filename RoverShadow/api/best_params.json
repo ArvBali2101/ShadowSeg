@@ -1,0 +1,4 @@
+﻿{
+  "public": { "threshold": 0.25, "close_k": 7, "min_area": 0 },
+  "private": { "threshold": 0.9, "close_k": 7, "min_area": 0 }
+}
