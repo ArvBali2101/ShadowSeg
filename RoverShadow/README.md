@@ -59,14 +59,16 @@ python scripts/sweep_alpha_threshold_iou.py --cfg configs/shadow_deeplabv3plus_r
 Backend:
 
 ```powershell
-cd C:\RoverShadowFinal\RoverShadow
+conda activate shadowseg
+ cd "c:\Users\Arv Bali\OneDrive\Documents\PROJECTS\RoverShadow-v1\RoverShadow"   
 python frontend\backend.py
 ```
 
 Frontend:
 
 ```powershell
-cd C:\RoverShadowFinal\RoverShadow\frontend
+conda activate shadowseg
+cd "c:\Users\Arv Bali\OneDrive\Documents\PROJECTS\RoverShadow-v1\RoverShadow\frontend"
 npm install
 npm run dev
 ```
